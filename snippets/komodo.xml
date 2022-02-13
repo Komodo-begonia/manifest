@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="manifest" name="manifest" remote="komodo" />
+  <project path="manifest" name="manifest" remote="komodo-begonia" />
 
   <project path="art" name="art" remote="komodo" />
   <project path="bionic" name="bionic" remote="komodo" />
@@ -104,7 +104,9 @@
 
   <!-- Sepolicy -->
   <project path="device/komodo/sepolicy" name="device_komodo_sepolicy" remote="komodo" />
-  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="komodo" />
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="komodo-begonia" />
+  <project path="device/mediatek/common" name="device_mediatek_common" remote="komodo-begonia" />
+  
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="komodo" />
   <!--<project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="komodo" />-->
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="komodo" />
@@ -124,6 +126,9 @@
   <project path="vendor/komodo" name="vendor_komodo" remote="komodo" />
   <project path="vendor/gapps" name="arrowos-project/android_vendor_gapps" remote="gitlab" clone-depth="1" revision="arrow-12.0" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="komodo" />
+  <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="komodo-begonia" />
+  <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="komodo-begonia" />
+  <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource" remote="komodo-begonia" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="komodo"/>
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="komodo" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="nad" />

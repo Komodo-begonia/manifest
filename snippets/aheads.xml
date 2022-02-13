@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="komodo-begonia"
+           fetch="https://github.com/Komodo-begonia/"
+           revision="12"
+           sync-j="16" />
 
   <remote  name="komodo"
            fetch="https://github.com/Komodo-OS/"
