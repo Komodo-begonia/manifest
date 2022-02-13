@@ -97,6 +97,7 @@
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="komodo" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="komodo" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="komodo" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="komodo-begonia" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-extras" name="prebuilts_tools-extras" remote="komodo" />
