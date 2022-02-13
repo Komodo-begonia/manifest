@@ -104,6 +104,9 @@
   <project path="prebuilts/tools-extras" name="prebuilts_tools-extras" remote="komodo" />
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
 
+  <!-- Resources -->
+  <project path="packages/resources/devicesettings-custom" name="PixelExperience/packages_resources_devicesettings" remote="github" revision="twelve" clone-depth="1" />
+
   <!-- Sepolicy -->
   <project path="device/komodo/sepolicy" name="device_komodo_sepolicy" remote="komodo" />
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="komodo-begonia" />
